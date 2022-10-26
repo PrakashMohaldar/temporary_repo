@@ -1,0 +1,252 @@
+.container .card i{
+	opacity: 0;
+	font-size: 10px;
+	color: #fff;
+	will-change: transform;
+	-webkit-transform: scale(0.1);
+	transform: scale(0.1);
+	-webkit-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+  }
+  
+  h2 {
+	pointer-events: none;
+  }
+  .container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+  }
+  #main #two .inner header{
+    position: relative;
+    margin-left: 2rem;
+  }
+  .container .card {
+	position: relative;
+	width: 600px;
+	height: 300px;
+	background-color: #fff;
+	overflow: hidden;
+	margin-bottom: 1rem;
+	box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  }
+	/* .container .card:before {
+	content: "";
+	z-index: 99;
+	position: absolute;
+	top: -10px;
+	left: 32px;
+	display: block;
+	width: 16px;
+	height: 16px;
+	border-radius: 16px;
+	background-color: #E6E5E1;
+  } */
+  /* .container .card:after {
+	content: "";
+	z-index: 99;
+	position: absolute;
+	bottom: -10px;
+	left: 32px;
+	display: block;
+	width: 16px;
+	height: 16px;
+	border-radius: 16px;
+	background-color: #E6E5E1;
+  } */
+  /* .container .card ul {
+	z-index: 99;
+	position: absolute;
+	left: 17px;
+	top: 5px;
+	list-style-type: none;
+  } */
+  .container .card h2 {
+	z-index: 99;
+	font-family: "Poppins", sans-serif;
+	position: absolute;
+	bottom: -2rem;
+	right: 7.8rem;
+	font-size: 2rem;
+	font-weight: 700;
+	color: #fff;
+  }
+  .container .card .fa-arrow-right {
+	z-index: 100;
+	position: absolute;
+	right: 4.5rem;
+	bottom: 22px;
+	font-size: 45px;
+	cursor: pointer;
+  }
+  .container .card p {
+	z-index: 99;
+	position: absolute;
+	top: 20px;
+	right: 5rem;
+	color: #333;
+	opacity: 0.7;
+	font-size: 1rem;
+	font-weight: 650;
+	letter-spacing: 1px;
+	writing-mode: vertical-lr;
+	-webkit-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+  }
+  #dsa .pic{
+	background-image: url('https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?w=900&t=st=1665989947~exp=1665990547~hmac=d5423ceb6f85d7cf6cd63d0e1e829f306f60954296414146c9f8433bc6cbefc5');
+  }
+  #data_analytics .pic{
+	background-image: url('https://img.freepik.com/free-vector/stock-market-forex-trading-graph-smartphone_56104-1013.jpg?w=900&t=st=1665990518~exp=1665991118~hmac=026124d00bbe7d6269a3c33ae7b915d071f120e7b54ec4f4f7045b3685cf275e');
+  }
+  #machine .pic{
+	background-image: url('https://img.freepik.com/free-photo/ai-technology-microchip-background-futuristic-innovation-technology-remix_53876-108532.jpg?w=900&t=st=1665990920~exp=1665991520~hmac=a0ddda292664ea310fa3089d0c9f780d5397422d129b153efdb3bcf1f34e7192');
+  }
+  #android .pic{
+	background-image: url('https://img.freepik.com/premium-photo/thoughtful-android-robot-3d-illustration-contains-clipping-path_1401-1044.jpg?w=900');
+  }
+  #web .pic{
+	background-image: url('https://img.freepik.com/premium-vector/purple-web-development-background_76964-167.jpg?w=1060');
+  }
+  #autocad .pic{
+	background-image: url('https://img.freepik.com/premium-photo/hacker-working-code-network_34200-388.jpg');
+  }
+ 
+  .container .card .pic {
+	z-index: 100;
+	/* width: 480px; */
+	width: 80%;
+	height: 300px;
+	
+	background-size: 100% 100%;
+	filter: grayscale(0);
+  }
+  @keyframes right_left {
+	0%{
+		transform: translateX(0);
+	}
+	100%{
+		transform: translateX(1.5rem);
+	}
+  }
+  .container .card i{
+	opacity: 0;
+	font-size: 1.8rem !important;
+	color: #fff;
+	will-change: transform;
+	-webkit-transform: scale(0.1);
+	transform: scale(0.1);
+	-webkit-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	animation: right_left 1s infinite ease-in alternate;
+  }
+
+  .container .card .social{
+	/* position: absolute;
+	left: 3rem;
+	top: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center; */
+	/* position: absolute; */
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 40%;
+	height: 40%;
+	border-radius: 80px;
+	overflow: hidden;
+  }
+
+  .container .card .social p{
+	right: 9rem;
+	position: absolute;
+	text-align: justify;
+	width: 70%;
+    writing-mode:horizontal-tb !important;
+	transform: translateX(-1000px);
+    font-size: 1.05rem;
+  }
+  .container .card:hover p {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: translateX(+1000px);
+	transform: scale(1);
+  }
+  .container .card:hover i {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+  }
+  .container .card button {
+    all: revert;
+	position: absolute;
+	right: 14px;
+	bottom: 30px;
+	width: 55px;
+	height: 55px;
+	background-color: #DA4D1D;
+	border: none;
+	border-radius: 50%;
+	cursor: pointer;
+	transform: scale(0.8);
+	transition: all 0.3s ease;
+	mix-blend-mode: hard-light;
+  }
+  .container .card button i {
+	font-size: 3rem;
+  }
+  .container .card:hover .hob {
+	transform: scale(9.3);
+  }
+  .container .card:hover p {
+	color: #fff;
+  }
+  .container .card:hover .pic {
+	filter: grayscale(100%);
+  }
+  .container .card2 .hob {
+	background-color: #2b26c3;
+  }
+  .container .card3 .hob {
+	background-color: #480e58;
+  }
+  
+  /* .dr {
+	position: absolute;
+	bottom: 16px;
+	right: 16px;
+	width: 100px;
+  }  */
+
+  @media only screen and (max-width: 600px) {
+	.container .card p {
+		font-size: 0.75rem;
+		right: 3rem;
+	}
+	.container .card .social p {
+		font-size: 0.9rem;
+		right: 8rem;
+	}
+	.container .card h2 {
+		right: 7rem;
+	  }
+	  .container .card:hover h2 {
+		font-size: 1.5rem;
+		right: 7rem;
+		bottom: -1rem;
+	  }
+  }
