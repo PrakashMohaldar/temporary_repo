@@ -71,7 +71,7 @@
 	z-index: 99;
 	font-family: "Poppins", sans-serif;
 	position: absolute;
-	bottom: -2rem;
+	bottom: -1.5rem;
 	right: 7.8rem;
 	font-size: 2rem;
 	font-weight: 700;
@@ -232,21 +232,77 @@
 	width: 100px;
   }  */
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 450px) {
 	.container .card p {
 		font-size: 0.75rem;
 		right: 3rem;
 	}
 	.container .card .social p {
-		font-size: 0.9rem;
-		right: 8rem;
+		font-size: 0.69rem;
+		right: 6rem;
 	}
 	.container .card h2 {
-		right: 7rem;
+		right: 5.3rem;
+		text-align: right;
+		font-size: 1.3rem !important;
 	  }
 	  .container .card:hover h2 {
-		font-size: 1.5rem;
-		right: 7rem;
-		bottom: -1rem;
+		font-size: .9rem;
+		right: 5.3rem;
+		bottom: -1.5rem;
 	  }
+	  .container .card{
+		height: 210px;
+		width: 96%;
+	  }
+	  .container .card .pic{
+		height: 210px;
+	  }
+	  .container .card button{
+		width: 40px;
+		height: 40px;
+		bottom: 1rem;
+		right: 1.3rem;
+	  }
+	  .container .card i{
+		font-size: 1.4rem !important;
+		right: 3rem !important;
+	  }
+	  
   }
+
+  @media (min-width: 450px) and (max-width: 610px) {
+	.container .card p {
+		font-size: 1rem;
+		right: 60px;
+	}
+	.container .card .social p {
+		font-size: .83rem;
+		right: 126px;
+	}
+	.container .card{
+		height: 260px;
+		width: 580px;
+	  }
+	  .container .card .pic{
+		height: 260px;
+	  }
+	  .container .card h2 {
+		right: 120px !important;
+		text-align: right;
+		font-size: 1.3rem !important;
+		bottom: -.3rem;
+	  }
+	  .container .card:hover h2 {
+		font-size: 1.3rem;
+		right: 120px;
+		bottom: -.3rem;
+	  }
+	  .container{
+		padding-left: .15rem;
+	  }
+
+
+  }
+
+  
