@@ -4352,8 +4352,8 @@ input, select, textarea {
 		transform: translateX(10%);
 	}
 	.benefits .info .points{
-		width: 8rem;
-		padding: .7rem;
+		width: 9rem;
+		padding: .5rem;
 	}
 	.benefits .info .points p{
 		font-size: .6rem;
