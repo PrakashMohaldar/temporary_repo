@@ -239,7 +239,8 @@
 	}
 	.container .card .social p {
 		font-size: 0.69rem;
-		right: 6rem;
+		letter-spacing: .3px;
+		right: 87px;
 	}
 	.container .card h2 {
 		right: 5.3rem;
